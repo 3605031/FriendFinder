@@ -193,5 +193,5 @@ app.post("/api/friends", function(req,res){
     console.log("=========================");
     console.log("Least difference was: "+min+" at index: "+friendIndex);
     res.json(data[friendIndex]);
-
+    data.push(newUser);
 })
